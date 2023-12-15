@@ -61,7 +61,7 @@ spec:
       name: Fetch Base
       action: fetch:cookiecutter
       input:
-        url: ./template
+        url: https://github.com/pickjonathan/nestjs-base.git
         values:
           name: ${{ parameters.name }}
           owner: ${{ parameters.owner }}
